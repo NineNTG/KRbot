@@ -58,4 +58,4 @@ async def rank(ctx,n: int,m: int,e: int):
 
     
 
-bot.run("process.env.BOT_TOKEN")
+client.run(os.getenv('TOKEN'))
